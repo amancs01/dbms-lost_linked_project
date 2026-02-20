@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 
-const Header = () => {
+export const Header = () => {
   const { user, isAuthenticated, logout } = useAuth();
   const navigate = useNavigate();
 
@@ -63,4 +63,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+

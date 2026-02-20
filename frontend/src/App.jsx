@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
 import { AuthProvider } from './contexts/AuthContext';
-import Header from './components/Header';
+import {Header} from './components/Header';
 import Home from './pages/Home';
 import ReportForm from './pages/ReportForm';
 import LoginPage from './pages/LoginPage';
