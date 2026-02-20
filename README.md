@@ -327,6 +327,3 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 For issues and questions, please open an issue on the GitHub repository.
 
----
-
-Built with ❤️ using FastAPI and React
